@@ -45,9 +45,9 @@ weak {
 }
 .border {
   border-style: solid;
-  border-color: white;
+  border-color: #808080;
   border-width: thick;
-  background-color: grey;
+  background-color: black;
   margin: 2.5%;
   padding: 2.5%;
 }
