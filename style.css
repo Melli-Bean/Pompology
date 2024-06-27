@@ -38,7 +38,7 @@ h3 {
   width: 50%;
 }
 .border {
-  border: solid;
+  border-style: solid;
   border-color: white;
   border-width: thick;
   background-color: beige;
