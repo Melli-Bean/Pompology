@@ -61,6 +61,6 @@ weak {
   border-width: thick;
 }
 .fuck {
-  display: inline-block;
+  display: block;
   margin: 0;
 }
