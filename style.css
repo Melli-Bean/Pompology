@@ -32,6 +32,7 @@ h3 {
   width: 50%;
 }
 .pomphead {
-  transform: translate(-125px, 0px);
+  margin: auto;
+  display: block;
 }
   
