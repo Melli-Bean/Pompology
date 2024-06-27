@@ -60,4 +60,7 @@ weak {
   border-color: black;
   border-width: thick;
 }
-  
+.fuck {
+  display: inline-block;
+  margin: 0;
+}
