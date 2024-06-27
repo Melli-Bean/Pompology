@@ -32,9 +32,9 @@ h3 {
   width: 50%;
 }
 .pomphead {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   text-align: center;
 }
   
