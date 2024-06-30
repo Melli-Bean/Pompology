@@ -67,5 +67,9 @@ weak {
   font-size: 15px;
 }
 .updatelog {
-  font-size: 15px;
+  font-size: 25px;
+  text-align: center
+}
+.motd {
+  font-size: 30px;
   text-align: center
