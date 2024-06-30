@@ -5,13 +5,6 @@
     <title>Pompology</title>
     <link rel="icon" type="image/x-icon" href="https://melli-bean.github.io/Pompology/images/triangle-of-life.png">
         <script>
-          var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }
         </script>
   </head>
   <body>
@@ -32,6 +25,13 @@
             <p><a href="https://melli-bean.github.io/Pompology/BOG/">Book of Greyson</a></p>
           <td valign="top" align"center" width="85%">
           
+    </div>
+
+    <div class="center">
+         <audio controls autoplay>
+  <source src="https://melli-bean.github.io/Pompology/audio/intheend.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+    </audio>
     </div>
 
    <br>
@@ -88,15 +88,6 @@
      <!-- hitwebcounter Code START -->
 <img src="https://hitwebcounter.com/counter/counter.php?page=14442083&style=0005&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>
     </div>
-
-    <audio controls autoplay>
-  <source src="https://melli-bean.github.io/Pompology/audio/intheend.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-    </audio>
-
-         <iframe src="https://melli-bean.github.io/Pompology/audio/intheend.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe> 
-     
   
   </div>
   </body>
