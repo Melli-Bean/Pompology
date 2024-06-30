@@ -66,3 +66,6 @@ weak {
 .smalltext {
   font-size: 15px;
 }
+.updatelog {
+  font-size: 15px;
+  text-align: center
