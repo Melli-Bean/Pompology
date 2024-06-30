@@ -4,6 +4,15 @@
     <link rel="stylesheet" href="https://melli-bean.github.io/Pompology/style.css">
     <title>Pompology</title>
     <link rel="icon" type="image/x-icon" href="https://melli-bean.github.io/Pompology/images/triangle-of-life.png">
+        <script>
+          var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
+        </script>
   </head>
   <body>
   <div class="border">
@@ -83,6 +92,10 @@
     <audio controls autoplay>
   <source src="https://melli-bean.github.io/Pompology/audio/intheend.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
+
+     <iframe src="https://melli-bean.github.io/Pompology/audio/intheend.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+     
     </audio>
   
   </div>
