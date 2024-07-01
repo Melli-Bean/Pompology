@@ -73,3 +73,10 @@ weak {
 .motd {
   font-size: 75%;
   text-align: center
+}
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
